@@ -1,27 +1,51 @@
-# AngularProject1
+#Angular project
+# Angular Authentication (Dummy Backend with LocalStorage)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.0.
+This is a simple **Angular authentication demo project** with **Login** and **Signup** functionality.  
+Instead of a real backend, it uses **localStorage** to store user data locally on the browser.  
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 🚀 Features
+- ✅ User Signup (stores username, email & password in `localStorage`)  
+- ✅ User Login (validates credentials from `localStorage`)  
+- ✅ Stores Logged-In User in `localStorage["loggedInUser"]`  
+- ✅ Simple Logout functionality  
+- ✅ Modern UI for Login & Signup pages  
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Tech Stack
+- **Angular 17+**
+- **TypeScript**
+- **LocalStorage** (simulated backend)
+- **CSS (Custom styles)**
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📂 Project Structure
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## ⚙️ Installation & Setup
 
-## Running end-to-end tests
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/angular-auth-demo.git
+   cd angular-auth-demo
+cmd commands
+npm install
+ng serve
+http://localhost:4200/
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+jeson file:
+[
+  { "username": "ali", "email": "ali@gmail.com", "password": "12345" }
+]
+{ "username": "ali", "email": "ali@gmail.com", "password": "12345" }
 
-## Further help
+yaml file
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+👉 Do you want me to also add **screenshots section** in the README so it looks more professional for GitHub?
